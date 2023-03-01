@@ -18,11 +18,11 @@
     }
   },
   "extends": [
-    "eslint:recommended",
+    // "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:react/jsx-runtime",
-    "plugin:prettier/recommended",
-    "plugin:import/react"
+    // "plugin:react/jsx-runtime",
+    "plugin:prettier/recommended"
+    // "plugin:import/react"
   ],
   "plugins": ["react", "import"],
   "settings": {
@@ -48,6 +48,7 @@
     "semi": ["off", "always"],
     "no-trailing-spaces": "error",
     "no-console": "warn",
+    "react/prop-types": "off",
     "no-unused-vars": [
       "warn",
       {
