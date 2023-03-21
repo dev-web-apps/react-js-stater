@@ -6,10 +6,30 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #219ebc;
+  --secondary-color: #023047;
+  --warning-color: #ffa62b;
+  --sucess-color: #2a9d8f;
+  --error-color: #f25c54;
+  --info-color: #a9def9;
+  --app-background-color: #e9ecef;
+  --card-background-color: #f8f9fa;
+
+  --card-padding: 16px;
+  --border-radius: 12px;
+
+  --box-shadow-1: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --box-shadow-2: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --box-shadow-3: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --box-shadow-4: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 body {
   margin: 0;
   font-family: 'Noto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: none;
+  background-color: var(--app-background-color);
 }
